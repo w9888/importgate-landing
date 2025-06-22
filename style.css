@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #0d1b40, #33235f);
+  color: white;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.lang-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.lang-switcher button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header {
+  text-align: center;
+  margin-top: 3rem;
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+header p {
+  font-size: 1.25rem;
+  color: #c0c2e0;
+}
+
+section {
+  max-width: 800px;
+  margin: 4rem auto;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+ul {
+  padding-left: 1.2rem;
+}
+blockquote {
+  border-left: 4px solid #7289da;
+  padding-left: 1rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+input, textarea {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+button[type="submit"] {
+  background: #7289da;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+button[type="submit"]:hover {
+  background: #5966bb;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #c0c2e0;
+  margin-top: 4rem;
+}
